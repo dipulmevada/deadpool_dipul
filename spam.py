@@ -445,25 +445,9 @@ def jnspam():
  	print(b+'╔══════════════════════════════\n'+b+'║'+h+'〘 '+m+'SPAM '+h+'〙\n'+b+'╠══════════════════════════════'+b+'\n║'+m+'『'+h+'▣'+m+'』'+bm+' Exit\n'+b+'╠══════════════════════════════'+b+'\n║'+m+'『'+h+'4'+m+'』 '+bm+'WhatsApp\n'+b+'╠══════════════════════════════')
 	while True:
 		oy=str(input(b+'╚══'+m+'〙'+u+'Spam'+m+' ▶ '+h))
-		if( oy == '1' or oy == '01' ):
-			jns='smua'
-			break
-		elif( oy == '2' or oy == '02' ):
-			jns='pehd'
-			break
-		elif( oy == '3' or oy == '03' ):
-			jns='ktbs'
-			break
-		elif( oy == '4' or oy == '04' ):
+		if
+( oy == '4' or oy == '04' ):
 			jns='tkpd'
-			break
-		elif( oy == '5' or oy == '05' ):
-			jns='ttk'
-			break
-		elif( oy == '6' or oy == '06' ):
-			jns='blji'
-			break
-		elif( oy == '0' or oy == '00' ):
 			sys.exit()
 		else:
 			print(m+'             Don`t leave it blank')
