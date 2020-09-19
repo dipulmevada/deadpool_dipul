@@ -272,7 +272,7 @@ def main():
 def jnspam():
 	global jns
 	print(logo())
-	print(b+'╔══════════════════════════════\n'+b+'║'+h+'〘 '+m+'SPAM '+h+'〙\n'+b+'╠══════════════════════════════'+b+'\n║'+m+'『'+h+'▣'+m+'』'+bm+' Exit\n'+b+'╠══════════════════════════════'+b+'\n║'+m+'『'+h+'1'+m+'』 '+bm+'Hello Friends, my self Dipul mevada\n'+b+'║'+m+'『'+h+'2'+m+'』 '+bm+'This package is only for education purpose\n'+b+'║'+m+'『'+h+'3'+m+'』 '+bm+'Don's use for illigal works. And select 4 for further process.\n'+b+'║'+m+'『'+h+'4'+m+'』 '+bm+'WhatsApp\n'+b+'║'+m+'『'+h+'5'+m+'』 '+bm+'TokoTalk (Unlimited)\n'+b+'║'+m+'『'+h+'6'+m+'』 '+bm+'Thank you\n'+b+'╠══════════════════════════════')
+	print(b+'╔══════════════════════════════\n'+b+'║'+h+'〘 '+m+'SPAM '+h+'〙\n'+b+'╠══════════════════════════════'+b+'\n║'+m+'『'+h+'▣'+m+'』'+bm+' Exit\n'+b+'╠══════════════════════════════'+b+'\n║'+m+'『'+h+'1'+m+'』 '+bm+'...\n'+b+'║'+m+'『'+h+'2'+m+'』 '+bm+'...\n'+b+'║'+m+'『'+h+'3'+m+'』 '+bm+'...\n'+b+'║'+m+'『'+h+'4'+m+'』 '+bm+'WhatsApp_ Otp\n'+b+'║'+m+'『'+h+'5'+m+'』 '+bm+'TokoTalk (Unlimited)\n'+b+'║'+m+'『'+h+'6'+m+'』 '+bm+'...\n'+b+'╠══════════════════════════════')
 	while True:
 		oy=str(input(b+'╚══'+m+'〙'+u+'Spam'+m+' ▶ '+h))
 		if( oy == '1' or oy == '01' ):
