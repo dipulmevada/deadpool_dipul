@@ -212,33 +212,7 @@ def logo():
 	auth=m+'  Author : '+k+'Dipul Mevada'
 	# jika ingin m3namambah kan variabel dan mengubah data variabel kitsune bisa menambahkan %s menambahkan variabel terus di ubah menjjadu string, %d = mengubah data menjadi decimal , %i = mengubah data menjadi integer
 	return '''
-%s
-
-
-
-
-
-
-       dMMMMb     dMP     dMMMMb    dMP dMP     dMP 
-    dMP VMP    amr     dMP.dMP   dMP dMP     dMP  
-   dMP dMP    dMP     dMMMMP"   dMP dMP     dMP   
-  dMP.aMP    dMP     dMP       dMP.aMP     dMP    
- dMMMMP"    dMP     dMP        VMMMP"     dMMMMMP 
-                                                  
-
-    
-
-
-
-
-
-
-
-
-
-
-  
-%s''' % (k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,auth)
+%s╭━┳━╭━╭━╮%s╮╲╲╲╲╲╲%s╔═╗╔═╗╔═╗╔╦╗ %s┃┈┈┈┣▅╋▅┫┃%s╲╲╲╲╲╲%s╚═╗╠═╝╠═╣║║║ %s┃┈┃┈╰━╰━━━━━━╮%s╲╲%s╚═╝╩ ╩ ╩╩ ╩ %s╰┳╯┈┈┈┈┈┈┈┈┈◢▉◣%s╲%s╔═╗╔╦╗╔═╗ %s╲┃┈┈┈┈┈┈┈┈┈┈▉▉▉%s╲%s╚═╗║║║╚═╗ %s╲┃┈┈┈┈┈┈┈┈┈┈◥▉◤%s╲%s╚═╝╩ ╩╚═╝ %s╲┃┈┈┈┈╭━┳━━━━╯%s╲╲%s╦ ╦╦ ╦╔═╗╔╦╗╔═╗╔═╗╔═╗╔═╗ %s╲┣━━━━━━┫%s╲╲╲╲╲╲╲%s║║║╠═╣╠═╣ ║ ╚═╗╠═╣╠═╝╠═╝ %s╲┃┈┈┈┈┈┈┃%s╲╲╲╲╲╲╲%s╚╩╝╩ ╩╩ ╩ ╩ ╚═╝╩ ╩╩ ╩ %s''' %  (k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,auth)
 # -----------------------------------------------------------
 def termux():
 	os.system('termux-contact-list > .contact')
