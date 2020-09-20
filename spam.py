@@ -75,7 +75,7 @@ class spam:
 		urlb="https://api.cloud.altbalaji.com/accounts/mobile/verify?domain=ID"
 		kod="62"
 		ata={
-				"country_code":91,
+				"country_code":kod,
 				"phone_number":self.nomer
 			}
 		head={
@@ -212,16 +212,11 @@ def logo():
 	auth=m+'  Author : '+k+'Dipul Mevada'
 	# jika ingin m3namambah kan variabel dan mengubah data variabel kitsune bisa menambahkan %s menambahkan variabel terus di ubah menjjadu string, %d = mengubah data menjadi decimal , %i = mengubah data menjadi integer
 	return '''
-%s╭━┳━╭━╭━╮%s╮╲╲╲╲╲╲%s╔═╗╔═╗╔═╗╔╦╗
-%s┃┈┈┈┣▅╋▅┫┃%s╲╲╲╲╲╲%s╚═╗╠═╝╠═╣║║║
-%s┃┈┃┈╰━╰━━━━━━╮%s╲╲%s╚═╝╩  ╩ ╩╩ ╩
-%s╰┳╯┈┈┈┈┈┈┈┈┈◢▉◣%s╲%s╔═╗╔╦╗╔═╗
-%s╲┃┈┈┈┈┈┈┈┈┈┈▉▉▉%s╲%s╚═╗║║║╚═╗
-%s╲┃┈┈┈┈┈┈┈┈┈┈◥▉◤%s╲%s╚═╝╩ ╩╚═╝
-%s╲┃┈┈┈┈╭━┳━━━━╯%s╲╲%s╦ ╦╦ ╦╔═╗╔╦╗╔═╗╔═╗╔═╗╔═╗
-%s╲┣━━━━━━┫%s╲╲╲╲╲╲╲%s║║║╠═╣╠═╣ ║ ╚═╗╠═╣╠═╝╠═╝
-%s╲┃┈┈┈┈┈┈┃%s╲╲╲╲╲╲╲%s╚╩╝╩ ╩╩ ╩ ╩ ╚═╝╩ ╩╩  ╩  
-%s''' % (k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,auth)
+╔══╗────────╔╗────────────╔══╗╔══╗╔═╗╔╦╗╔╗─
+╚╗╗║╔═╗╔═╗─╔╝║╔═╗╔═╗╔═╗╔╗─╚╗╗║╚║║╝║╬║║║║║║─
+╔╩╝║║╩╣║╬╚╗║╬║║╬║║╬║║╬║║╚╗╔╩╝║╔║║╗║╔╝║║║║╚╗
+╚══╝╚═╝╚══╝╚═╝║╔╝╚═╝╚═╝╚═╝╚══╝╚══╝╚╝─╚═╝╚═╝
+──────────────╚╝─────────────────────────── (k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,auth)
 # -----------------------------------------------------------
 def termux():
 	os.system('termux-contact-list > .contact')
