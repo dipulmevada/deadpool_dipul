@@ -212,28 +212,21 @@ def logo():
 	auth=m+'  Author : '+k+'Dipul Mevada'
 	# jika ingin m3namambah kan variabel dan mengubah data variabel kitsune bisa menambahkan %s menambahkan variabel terus di ubah menjjadu string, %d = mengubah data menjadi decimal , %i = mengubah data menjadi integer
 	return '''
-%s╭━┳━╭━╭━╮%s╮╲╲╲╲╲╲%s╔═╗╔═╗╔═╗╔╦╗
-%s┃┈┈┈┣▅╋▅┫┃%s╲╲╲╲╲╲%s╚═╗╠═╝╠═╣║║║
-%s┃┈┃┈╰━╰━━━━━━╮%s╲╲%s╚═╝╩  ╩ ╩╩ ╩
-%s╰┳╯┈┈┈┈┈┈┈┈┈◢▉◣%s╲%s╔═╗╔╦╗╔═╗
-%s╲┃┈┈┈┈┈┈┈┈┈┈▉▉▉%s╲%s╚═╗║║║╚═╗
-%s╲┃┈┈┈┈┈┈┈┈┈┈◥▉◤%s╲%s╚═╝╩ ╩╚═╝
-%s╲┃┈┈┈┈╭━┳━━━━╯%s╲╲%s
+%s
 
 
 
 
 
 
-  ____                                ___      
- /\  _`\     __                      /\_ \     
- \ \ \/\ \  /\_\    _____    __  __  \//\ \    
-  \ \ \ \ \ \/\ \  /\ '__`\ /\ \/\ \   \ \ \   
-   \ \ \_\ \ \ \ \ \ \ \L\ \\ \ \_\ \   \_\ \_ 
-    \ \____/  \ \_\ \ \ ,__/ \ \____/   /\____\
-     \/___/    \/_/  \ \ \/   \/___/    \/____/
-                      \ \_\                    
-                       \/_/                    
+       dMMMMb     dMP     dMMMMb    dMP dMP     dMP 
+    dMP VMP    amr     dMP.dMP   dMP dMP     dMP  
+   dMP dMP    dMP     dMMMMP"   dMP dMP     dMP   
+  dMP.aMP    dMP     dMP       dMP.aMP     dMP    
+ dMMMMP"    dMP     dMP        VMMMP"     dMMMMMP 
+                                                  
+
+    
 
 
 
@@ -244,9 +237,7 @@ def logo():
 
 
 
-╦ ╦╦ ╦╔═╗╔╦╗╔═╗╔═╗╔═╗╔═╗
-%s╲┣━━━━━━┫%s╲╲╲╲╲╲╲%s║║║╠═╣╠═╣ ║ ╚═╗╠═╣╠═╝╠═╝
-%s╲┃┈┈┈┈┈┈┃%s╲╲╲╲╲╲╲%s╚╩╝╩ ╩╩ ╩ ╩ ╚═╝╩ ╩╩  ╩  
+  
 %s''' % (k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,k,m,h,auth)
 # -----------------------------------------------------------
 def termux():
